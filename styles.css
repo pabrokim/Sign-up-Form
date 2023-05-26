@@ -1,20 +1,26 @@
 html, body {
     height:100%;
     margin: 0;
+ 
 }
 body {
-font-family: 'Courier New', Courier, monospace;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+
+
 
 }
 .container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    
+   
 }
 .signimage {
-    padding: 10px;
+    
     height: 100vh;
-    width: 700px;
+    width: 600px;
     background-image: url("../img/signupimg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,6 +28,7 @@ font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .signimage p {
     color: black;
@@ -42,14 +49,21 @@ img {
     opacity: 0.9;
     background-color: rgb(197, 187, 187);
 }
-.logo, .main-content {
-    padding: 20px;
-}
+
+
 .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    width:800px;
-    font-size: 20px;
+    width:700px;
+    font-weight: bold;
+
     background-color: azure;
+   
+    padding: 0px 150px 0px 50px;
+
 }
 .form-group {
     background-color: rgb(245, 253, 253);
@@ -93,4 +107,23 @@ section {
 .submit p {
     font-size: 20px;
     margin-top: 50px;
+}
+#action, .pitch p {
+   font-size: 20px;
+   line-height: 25px;
+
+}
+#action {
+    margin-bottom: 5px;
+}
+button:hover {
+    background-color: rgb(93, 151, 6);
+
+}
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
 }
