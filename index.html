@@ -9,58 +9,69 @@
 </head>
 <body>
     <div class="container">
+        
         <div class="signimage">
             <div class="logo">
                 <img src="../img/logo.jpg" alt="logo">
                 <p>CodeMaster</p>
             </div>
         </div>
+
         <div class="main-content">
-            <div class="pitch">
-                <p>This is not a real online service! You need something like this in your life to help you realize your deepest website. Sign up <span style="font-style: italic;">now</span> to get started.</p>
-                <p>You <span style="font-style: italic;">know</span> you want to.</p>
-            </div>
-            <form class="form-group">
-            <section>Let's do this!</section>
+           
+       
+                <form class="form-group">
+
+                    <div class="pitch">
+                        <p>This is not a real online service! You need something like this in your life to help you realize your deepest website. Sign up <span style="font-style: italic;">now</span> to get started.</p>
+                        <p>You <span style="font-style: italic;">know</span> you want to.</p>
+                    </div>
+                  
+                    <section>
+                        <section id="action">Let's do this!</section>
+                        <div class="first-name">
+                            <label for="firstname">First name</label>
+                            <input type="text" name="firstname" id="firstname">
+                        </div>
+                        <div class="last-name">
+                            <label for="lastname">Last name</label>
+                            <input type="text" name="lastname" id="lastname">
+                        </div>
+                        <br style="clear:both;" />
+                     </section>
+
+                     <section>
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="phone-number">
+                            <label for="phone-number">Phone number</label>
+                            <input type="text" name="phone-number" id="phone-number">
+                        </div>
+                        <br style="clear:both;" />
+                     </section>
+
+                     <section>
+                        <div class="password">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="confirm">
+                            <label for="confirm-password">Confirm password</label>
+                            <input type="password" name="confirm-password" id="confirm-password">
+                        </div>  
+                        <br style="clear:both;" />          
+                     </section> 
+                     
+                     <div class="submit">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <span style="color:green">Log in</span></div></p>
+                    </div>
+                </form>
+               
+
             
-             <section>
-                <div class="first-name">
-                    <label for="firstname">First name</label>
-                    <input type="text" name="firstname" id="firstname">
-                </div>
-                <div class="last-name">
-                    <label for="lastname">Last name</label>
-                    <input type="text" name="lastname" id="lastname">
-                </div>
-                <br style="clear:both;" />
-             </section>
-             <section>
-                <div class="email">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="phone-number">
-                    <label for="phone-number">Phone number</label>
-                    <input type="text" name="phone-number" id="phone-number">
-                </div>
-                <br style="clear:both;" />
-             </section>
-             <section>
-                <div class="password">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                </div>
-                <div class="confirm">
-                    <label for="confirm-password">Confirm password</label>
-                    <input type="password" name="confirm-password" id="confirm-password">
-                </div>  
-                <br style="clear:both;" />          
-             </section> 
-             <div class="submit">
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <span style="color:green">Log in</span></div></p>
-            </div>
-            </form>
         </div>
     </div>
 </body>
